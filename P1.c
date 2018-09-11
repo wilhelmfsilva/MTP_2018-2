@@ -1,3 +1,5 @@
+// Guilherme Ferreira Silva
+//11811EEL038
 #include <stdio.h>
 
 int main(){
@@ -7,10 +9,10 @@ int main(){
   scanf("%s", bits);
   
   while(bits[i] != '\0'){
-    if(estado == 0 && bits[i] == '0'){
+    if(estado == 0 && bits[i] == '0'){          //primeiro estado
     estado = 0;
     }
-    else if(estado == 0 && bits[i] == '1'){
+    else if(estado == 0 && bits[i] == '1'){     //primeiro estado
     estado = 1;
     }
     else if(estado == 1 && bits[i] == '1'){
