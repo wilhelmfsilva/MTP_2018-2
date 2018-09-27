@@ -1,3 +1,5 @@
+// Guilherme Ferreira Silva
+// 11811EEL038
 #include <stdio.h>
 
 int exp (int numero, int expoente)
@@ -74,8 +76,8 @@ void DectoBin (int num)
 
 int main()
 {
-	int indice, i;
-	char bits[256];
+	int indice, i, num;
+	int bits[256];
 
 	scanf ("%d", &indice);
 
@@ -91,37 +93,31 @@ int main()
 	}
 	if(indice==3)
 	{
-		int(bits);
 		scanf ("%x", &bits);
 		printf ("\n%d", bits);
 	}
 	if(indice==4)
 	{
-		int(bits);
 		scanf ("%x", &bits);
 		DectoBin(bits);
 	}
 	if(indice==5)
 	{
-		int(num);
 		scanf("%d", &num);
 		TruuDectoBin(num);
 	}
 	if(indice==6)
 	{
-		int(bits);
 		scanf("%d", &bits);
 		printf ("\n%x", bits);
 	}
 	if(indice==7)
 	{
-		int(bits);
 		scanf("%o", &bits);
 		printf("\n%d", bits);
 	}
 	if(indice==8)
 	{
-		int(bits);
 		scanf("%d", &bits);
 		printf ("\n%o", bits);
 	}
