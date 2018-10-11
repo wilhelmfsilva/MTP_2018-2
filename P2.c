@@ -1,11 +1,10 @@
-//Guilherme Ferreira Silva
-//11811EEL038
-
 #include <stdio.h>
 
-int exp (int numero, int expoente)
+double exp (int numero, int expoente)
 {
-	int i, resultado = 1;
+	int i;
+	double resultado = 1;
+
 	for (i=0; i<expoente; i++)
 		resultado = resultado * numero;
 	return resultado;
@@ -31,7 +30,8 @@ void inverter (char vet[])
 int BintoDec (char num[])
 {
 	inverter(num);
-	int i, soma = 0;
+	int i;
+	double soma = 0;
 	for (i = 0; num[i] != '\0'; i++)
 		if (num[i] == '1')
 			soma = soma + num[i] * exp(2, i);
@@ -130,3 +130,4 @@ int main()
 	}
 	return 0;
 }
+
