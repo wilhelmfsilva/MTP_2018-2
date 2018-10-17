@@ -24,7 +24,7 @@ int main(){
         printf("0");
     }
     else{
-        printf("%d", string);
+        printf("%s", string);
     }
     
     return 0;
