@@ -20,7 +20,7 @@ int main(){
         }
     }
 
-    if(string[1]=='0'){
+    if(string[1]=='\0'){
         printf("0");
     }
     else{
