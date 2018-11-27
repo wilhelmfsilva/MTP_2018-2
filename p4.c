@@ -1,3 +1,5 @@
+// Guilherme Ferreira Silva
+//11811EEL038
 #include <stdio.h>
 
 int A(int, int);
