@@ -1,3 +1,5 @@
+// Guilherme Ferreira Silva
+//11811EEL038
 #include <stdio.h>
 
 double exp (int numero, int expoente)
