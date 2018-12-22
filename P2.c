@@ -2,10 +2,10 @@
 //11811EEL038
 #include <stdio.h>
 
-double exp (int numero, int expoente)
+int exp (int numero, int expoente)
 {
 	int i;
-	double resultado = 1;
+	int resultado = 1;
 
 	for (i=0; i<expoente; i++)
 		resultado = resultado * numero;
